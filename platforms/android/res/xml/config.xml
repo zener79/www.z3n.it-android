@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="it.z3n.www" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <name>Z3N.it</name>
+    <description>
+        Z3N.it website packed as app
+    </description>
+    <author email="claudio@z3n.it" href="http://www.z3n.it">
+        Claudio Benvenuti
+    </author>
+    <content src="index.html" />
+    <access origin="http://www.z3n.it" subdomains="true" />
+    <access origin="https://s3.amazonaws.com" subdomains="true" />
+    <access launch-external="yes" origin="http://twitter.com" />
+    <access launch-external="yes" origin="http://www.linkedin.com" />
+    <access launch-external="yes" origin="tel:*" />
+    <icon height="512" src="img/icon2.png" width="512" />
+    <icon cdv:platform="android" height="96" src="img/icon.png" width="96" />
+    <cdv:splash cdv:platform="android" height="480" src="img/logo.png" width="800" />
+    <cdv:splash cdv:platform="android" height="800" src="img/logo.png" width="480" />
+</widget>
